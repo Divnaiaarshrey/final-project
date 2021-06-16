@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="divya.css">
+        <title>Welcome to our very first blog</title>
+  
+<style>
+body {margin:0;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: right;
+}
+
+    
+  }
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+</style>
+<body>
+
+<ul>
+    <li><a class="active" href="login.html">Log In</a></li>
+  <li><a href="Admin.html">Admin</a></li>
+  <li><a href="index.html">Contact </a></li>
+  <li><a href="About.html">About</a></li>
+  <li><a href="#about">Projects</a></li>
+    <li><a href="Home.html">Home</a></li>
+</ul><br><br>
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+  
+    <h1 style="color: darkseagreen">Ourblog.com</h1>
+
+    <p class="d2">We write about things we encounter while learning language like node js react js and mongodb.</p>
+
+    <h2 class="d2">Blog Entries-Create Read Update Delete </h2>
+
+    <!-- Here will be a list of all the blog entries. -->
+    
+
+<div class="row">
+  <div class="leftcolumn"></div>
+      <h1 class="d1">Learning About Node js </h1>
+      <h5 class="d2">     Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting—running scripts server-side to produce dynamic web page content before the page is sent to the user's web browser. Consequently, Node.js represents a "JavaScript everywhere" paradigm,[6] unifying web-application development around a single programming language, rather than different languages for server-side and client-side scripts.    </h5>
+      <center><img src="B.jpg" height="300"px width="300px"></center>
+      <h2 class="d2">Theory about node js</h2>
+      <p class="d2">   Though .js is the standard filename extension for JavaScript code, the name "Node.js" doesn't refer to a particular file in this context and is merely the name of the product. Node.js has an event-driven architecture capable of asynchronous I/O. These design choices aim to optimize throughput and scalability in web applications with many input/output operations, as well as for real-time Web applications (e.g., real-time communication programs and browser games).[7]
+
+The Node.js distributed development project was previously governed by the Node.js Foundation,[8] and has now merged with the JS Foundation to form the OpenJS Foundation, which is facilitated by the Linux Foundation's Collaborative Projects program.[9]  </p>
+      <h2 class="d2">Example of node</h2>
+      <p class="d2">   Example-<br>
+var http = require('http');
+
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.end('Hello World!');
+}).listen(8080);  </p>
+    </div>
+      <h1 class="d1">Learning About React Js</h1>
+      <h5 class="d2">  React is an open-source front-end JavaScript library for building user interfaces or UI components. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.  </h5>
+      <center><img src="A.png" height="300"px width="300px"></center>
+      <h3 class="d2">Lets know something brief about react js</h3>
+      <p class="d2">    ReactJS is a toolkit for building user interfaces that was first deployed by Facebook in 2011. At its core, React is a solution to a problem that developers faced when building user interfaces. It allows developers to build complex user interfaces which have components that will change frequently over time, without having to write a lot of very tricky JavaScript code.
+
+While React is a lot like front-end framework, it’s actually a little different in terms of functionality. Technically, it is a user interface library. It includes some of the same aspects of front-end frameworks, but its purpose is to organize HTML elements into components.
+
+People will generally say that React is the V in MV* framework architecture. This means, rather than doing all the things most frameworks do, React is focused on being able to generate HTML for the application it’s used in, and it does so in a very intuitive way.   </p>
+<h3 class="d2">Example code of react js </h3>
+<p class="d2"> import React from 'react';
+
+class Album extends React.Component {
+   render() {
+     var title = "UI State of Mind";
+     var description = "Keep track of complex web application and manage state";
+     var lastPlayed = "3 minutes ago";
+     
+     return (
+       <div className="album">
+         <h3 class="d2">{title}</h3>
+         <h4>{description}</h4>
+         <span className="lastPlayed">{lastPlayed}</span>
+       </div>
+     );
+   }
+} </p>
+    </div>
+      <h1 class="d1">Now Lets Know About Mongodb</h1>
+      <h5 class="d2">Something about mongodb</h5>
+      <p class="d2">    10gen software company began developing MongoDB in 2007 as a component of a planned platform as a service product. In 2009, the company shifted to an open-source development model, with the company offering commercial support and other services. In 2013, 10gen changed its name to MongoDB Inc.
+
+On October 20, 2017, MongoDB became a publicly traded company, listed on NASDAQ as MDB with an IPO price of $24 per share.
+
+On October 30, 2019, MongoDB teamed up with Alibaba Cloud, who will offer its customers a MongoDB-as-a-service solution. Customers can use the managed offering from BABA's global data centers.  </p>
+<center><img src="C.png" height="100"px width="250px"></center>
+    </div>
+  </div>
+  <div class="card">
+  
+      <h2 style="color:grey" class="d2">About Me</h2>
+      
+        <p class="d2">We are ready to show our very first blog about node js react js and mongodb.</p>
+      </div>
+       
+      <div class ="card">
+        <h1 style="color:grey">Contact Us</h1>
+        <p class="d2">If you will get any queries or facing any problem or if you want something more about any topic releted to blog then you can contact on..... </p>
+        <form class="d2">
+          <lable for="NAME">Name</lable><br>
+          <input type="text"id="NAME" name="NAME"><br><br>
+            <lable for="EMAIL">Email</lable><br>
+            <input type="text" id="EMAIL" name="EMAIL"><br><br>
+              <lable for="CONTACT">Contact</lable><br>
+              <input type="text" id="CONTACT" name="CONTACT"><br><br>
+              <lable for="message">Please put your queries here</lable><br>
+              <textarea id="message" name="message" rows="4" cols="50">Write your message here</textarea><br><br>
+              <button type="button"style="background-color:green">Submit</button>
+           
+        </form>
+      </div>
+     </div>
+     <div class="card">
+      <br><br><h2 style="text-decoration: underline" class="d2">See here Node Js  React Js and Mongodb</h2>
+        <img src="D.png" height="300px" width="300px" class="d2">
+          <img src="E.png" height="300"px width="300px">
+            <img src="F.png" height="300"px width="300px"></div>
+    <div class="card">
+      <h3 style="color:grey" class="d2">Follow us</h3>
+      <p class="d2">On Instagram...<br>instagram id-
+      @Tanuja.divya
+      @nainanisha2342    
+      @_shreya_kumari25_
+      @Aartikumari</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>All copy right @reserved </h2>
+</div>
+
+  </body>
+</html>

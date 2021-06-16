@@ -1,0 +1,49 @@
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+  background-image: url("H1.gif");
+  background-size:  100% 120% ;
+  background-repeat: no-repeat;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+  background-image: url("N.jpg");
+  background-size: cover;
+}
+.d1{
+
+  color: darkslategrey;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  padding-top: 50px;
+}
+  
+  .c
+  {
+  float: left;
+  width: 25%;
+  /*margin-top: 6px; */
+  padding-left: 10px;
+  }
+  .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1
+{border-radius: 12px;}
+  
